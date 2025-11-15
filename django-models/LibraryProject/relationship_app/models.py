@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 
-Class Author(models.Model)
+class Author(models.Model):
   name = models.CharField(max_length=100)
 
 class Book(models.Model):
