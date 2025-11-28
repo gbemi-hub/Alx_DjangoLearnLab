@@ -1,5 +1,6 @@
 from rest_framework import filters
-from rest_framework import generics,
+from rest_framework import generics
+from django_filters import rest_framework
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from django_filters.rest_framework import DjangoFilterBackend
 from .models import Book
